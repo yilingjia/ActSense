@@ -37,7 +37,10 @@ $ python query_by_committee.py [--year] [--dataset] [--init]
                                [--lambda1] [--lambda2] [--lambda3]
 ```
 The results will be stored in ../data/result/
+#### For baseline: VBV
+We use the code from this [git repository](https://github.com/qbzhao/BRTF)
 
+### Dataset
 We use the [Dataport](https://www.pecanstreet.org/dataport/) dataset for evaluation purpose. It is thelargest public residential home energy dataset, which containsthe appliance-level and household aggregate energy consumptionsampled every minute from 2012 to 2018.
 
  We filter out the appliances with poor data quality (large proportion of missing values) to select a subset of them. We get 4 different datasets from year 2014 to 2017 containing 53, 93, 73, and 44 homes respectively and six appliances: air-conditioning (HVAC),fridge, washing machine, furnace, microwave and dishwasher. Onthis selected data set, we reconstruct the aggregate reading by thesum of the selected appliances 
