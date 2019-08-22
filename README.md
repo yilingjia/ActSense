@@ -4,6 +4,7 @@ This is an implementation for the paper titled "Active Collaborative Sensing for
 
 ### Algorithm
 ActSense model amis at minimizing the deployment cost by selectively deploying sensing hardware to a subset of homes and appliances while maximizing the reconstruction accuracy of sub-metered readings in non-instrumented homes.
+
 We perform this active sensor deployment via active tensor completion with streaming data. Specifically, at the end of each month, we query the home and appliance pairs that have the highest uncertainty in the current tensor reconstruction, which we prove to reduce reconstruction uncertainty mostly rapidly. And to project a model's prediction uncertainty of future readings in a longer term, we incorporate external seasonal information into model estimationm, which helps the model react to future season changes earlier.
 The detailed algorithm can be found in the paper.
 
