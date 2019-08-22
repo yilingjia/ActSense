@@ -38,7 +38,7 @@ $ python query_by_committee.py [--year] [--dataset] [--init]
 ```
 The results will be stored in ../data/result/
 #### For baseline: VBV
-We use the code from this [git repository](https://github.com/qbzhao/BRTF)
+We use this [implementation](https://github.com/qbzhao/BRTF).
 
 ### Dataset
 We use the [Dataport](https://www.pecanstreet.org/dataport/) dataset for evaluation purpose. It is thelargest public residential home energy dataset, which containsthe appliance-level and household aggregate energy consumptionsampled every minute from 2012 to 2018.
