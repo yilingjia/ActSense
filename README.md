@@ -1,6 +1,6 @@
 # ActSense
 
-This is an implementation for the paper titled ["Active Collaborative Sensing for Energy Breakdown"]("https://arxiv.org/pdf/1909.00525.pdf) which is published at CIKM 2019. We public our source code in this repository.
+This is an implementation for the paper titled ["Active Collaborative Sensing for Energy Breakdown"](https://arxiv.org/pdf/1909.00525.pdf) which is published at CIKM 2019. We public our source code in this repository.
 
 ### Algorithm
 ActSense model amis at minimizing the deployment cost by selectively deploying sensing hardware to a subset of homes and appliances while maximizing the reconstruction accuracy of sub-metered readings in non-instrumented homes.
