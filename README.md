@@ -48,3 +48,10 @@ We use the [Dataport](https://www.pecanstreet.org/dataport/) dataset for evaluat
 
 ### Citation
 If you use this code to produce results for your scientific publication, please refer to our CIKM 2019 paper:
+@inproceedings{jia2019active,
+  title={Active collaborative sensing for energy breakdown},
+  author={Jia, Yiling and Batra, Nipun and Wang, Hongning and Whitehouse, Kamin},
+  booktitle={Proceedings of the 28th ACM International Conference on Information and Knowledge Management},
+  pages={1943--1952},
+  year={2019}
+}
